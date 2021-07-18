@@ -10,7 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppTheme">
 
-        <activity android:name=".ui.PriorityActivity" />
+        <activity
+            android:name=".ui.PriorityActivity"
+            android:label="@string/new_priority"/>
+
         <activity android:name=".ui.HistoryActivity" />
 
         <activity

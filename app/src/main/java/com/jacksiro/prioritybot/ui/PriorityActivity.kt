@@ -5,11 +5,7 @@ import android.app.TimePickerDialog
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import android.widget.ArrayAdapter
-import android.widget.DatePicker
-import android.widget.Spinner
-import android.widget.TimePicker
-import com.google.android.material.button.MaterialButton
+import android.widget.*
 import com.google.android.material.textfield.TextInputEditText
 import com.google.android.material.textfield.TextInputLayout
 import com.jacksiro.prioritybot.R
@@ -34,7 +30,7 @@ class PriorityActivity : AppCompatActivity(), View.OnClickListener {
     lateinit var spinnerCategory: Spinner
     lateinit var dateEdt: TextInputEditText
     lateinit var timeEdt: TextInputEditText
-    lateinit var saveBtn: MaterialButton
+    lateinit var saveBtn: Button
 
     var finalDate = 0L
     var finalTime = 0L
