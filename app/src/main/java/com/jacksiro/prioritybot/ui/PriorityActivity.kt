@@ -104,6 +104,7 @@ class PriorityActivity : AppCompatActivity(), View.OnClickListener {
                 )
             }
             finish()
+
         }
 
     }

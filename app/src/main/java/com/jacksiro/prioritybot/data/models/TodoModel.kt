@@ -11,6 +11,5 @@ data class TodoModel(
     var date:Long,
     var time:Long,
     var isFinished : Int = 0,
-    @PrimaryKey(autoGenerate = true)
-    var id:Long = 1
+    @PrimaryKey(autoGenerate = true) var id:Long = 1
 )
